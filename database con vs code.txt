@@ -1,0 +1,20 @@
+<?php
+$a=$_POST["n"];
+
+
+$b=$_POST["a"];
+
+$c=$_POST["d"];
+
+$d=$_POST["e"];
+
+$e=$_POST["p"];
+
+$con=mysqli_connect("localhost","root","");
+mysqli_select_db($con,"code");
+$sqli=("insert into cls(n,a,d,e,p) values('$a','$b','$c','$d','$e')");
+mysqli_query($con,$sqli);
+echo("REGISTERED");
+include("register.php");
+mysqli_close($con);
+?>

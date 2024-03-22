@@ -1,0 +1,20 @@
+
+
+
+
+
+1.  m - margin on all sides
+2. mt - margin top
+3. mb - margin bottom
+4. ms - margin right
+5. me - margin left
+6. mx - margin left and right
+7. my - margin top and bottom
+8. p -   padding
+9. pt - padding top	
+10. pb - padding bottom	
+11. ps -	padding left	
+12. pe -	padding right	
+13. py -	padding top and bottom	
+14. px -	padding left and right
+
